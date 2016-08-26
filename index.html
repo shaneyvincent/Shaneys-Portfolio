@@ -176,6 +176,92 @@
     transition: 0s display;
 }
 
+@media only screen and (max-width: 500px) {
+
+      #navlist {
+          position: relative;
+      }
+
+      #navlist li {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          position: absolute;
+          top: 0;
+      }
+
+      #navlist li, #navlist a {
+          height: 186px;
+          display: block;
+      }
+
+      #home {
+          left: 0px;
+          width: 32px;
+          background: url('img/MIXERsmall.png') 0 0;
+      }
+
+      #aboutme {
+          left: 32px;
+          width: 20px;
+          background: url('img/MIXERsmall.png') -32px 0;
+      }
+
+      #portfolio {
+          left: 42px;
+          width: 20px;
+          background: url('img/MIXERsmall.png') -42px 0;
+      }
+
+      #music {
+          left: 62px;
+          width: 20px;
+          background: url('img/MIXERsmall.png') -62px 0;
+      }
+
+      #code {
+          left: 82px;
+          width: 20px;
+          background: url('img/MIXERsmall.png') -82px 0;
+      }
+
+      #blog {
+          left: 102px;
+          width: 66px;
+          background: url('img/MIXERsmall.png') -102px 0;
+      }
+
+      #home a:hover {
+          background: url('img/MIXERsmall.png') 0 -186px;
+          transition: 0s display;
+      }
+
+      #aboutme a:hover {
+          background: url('img/MIXERsmall.png') -32px -186px;
+          transition: 0s display;
+      }
+
+      #portfolio a:hover {
+          background: url('img/MIXERsmall.png') -42px -186px;
+          transition: 0s display;
+      }
+
+      #music a:hover {
+          background: url('img/MIXERsmall.png') -62px -186px;
+          transition: 0s display;
+      }
+
+      #code a:hover {
+          background: url('img/MIXERsmall.png') -82px -186px;
+          transition: 0s display;
+      }
+
+      #blog a:hover {
+          background: url('img/MIXERsmall.png') -102px -186px;
+          transition: 0s display;
+      }
+    }
+
 </style>
   <h1></h1>
 
@@ -257,7 +343,7 @@
             <div class="row no-gutter popup-gallery">
 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                    <a href="img/portfolio/fullsize/PMILOGO.png" class="portfolio-box">
                         <img src="img/portfolio/thumbnails/PMILOGO.png" class="img-responsive" alt="SOUTH FLORIDA PMI LOGO (Shane’s Version)">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -326,7 +412,7 @@
                                 <div href="http://shaneyvincent.tumblr.com//" class="project-category text-faded">
                                    MEAN Stack SINGLE page Messaging App -
                                   Built using MongoDB, ExpressJS, AngularJS,  NodeJS, Yeoman, AJAX and Bootstrap allowing users to log in and out, and post messages with that log in, while watching for changes.
-                                
+
                                 </div>
                             </div>
                         </div>
@@ -352,6 +438,7 @@
                             </div>
                         </div>
                     </a>
+
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/thumbnails/6.gif" class="portfolio-box">
