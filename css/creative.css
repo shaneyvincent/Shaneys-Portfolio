@@ -184,6 +184,7 @@ header .header-content {
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
+  align: center;
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
@@ -209,7 +210,7 @@ header .header-content .header-content-inner p {
   }
   header .header-content {
     position: absolute;
-    top: 10%;
+    top: 70%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
