@@ -1696,8 +1696,10 @@ span {
 
 		.row > section, .row > article {
 			margin-bottom: 0;
-      margin-left: 15vh;
-      background-image:url(../img/contactpagebackground.jpg)
+      width: 100%;
+    height: auto;
+      background-image:url(../img/contactpagebackground.jpg);
+
 		}
 
 /* Image */
